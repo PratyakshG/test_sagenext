@@ -12,10 +12,10 @@ const About = () => {
         Desktop as a Service (DaaS)
       </h1>
 
-      <div className="max-w-[1200px] py-10 flex max-lg:flex-col gap-12">
-        <Image src={aboutImage} alt="aboutImage" />
+      <div className="max-w-[1300px] py-10 flex max-lg:flex-col gap-12">
+        <Image src={aboutImage} alt="aboutImage" className="aspect-square size-full" />
         <div>
-          <span className="text-lg">
+          <span className="text-[17px]">
             DaaS is a cost-effective solution for providing desktop
             virtualization on any device. The cloud-hosted DaaS infrastructure
             allows your team to access and work on the virtual desktop
@@ -41,16 +41,18 @@ const About = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center">
-        <span className="font-black text-3xl text-[#023576]">Boost Your Team’s  Productivity with Our DaaS Hosting – Sign Up Now!</span>
+        <span className="font-black text-4xl text-[#023576] text-center">
+          Boost Your Team’s Productivity with Our DaaS Hosting – Sign Up Now!
+        </span>
 
         <div className="flex gap-3 pt-6 max-md:p-4 max-sm:pb-10">
-            <button className="border border-white rounded-full text-white bg-[#0151C1] px-4 lg:px-8 py-3 max-md:text-sm font-bold whitespace-nowrap">
-              Talk to our Experts
-            </button>
-            <button className="border border-[#023576] rounded-full text-[#023576] px-4 lg:px-8 py-3 max-md:text-sm font-semibold whitespace-nowrap">
-                Get Your Free Trial
-            </button>
-          </div>
+          <button className="border border-white rounded-full text-white bg-[#0151C1] px-4 lg:px-8 py-3 max-md:text-sm font-bold whitespace-nowrap">
+            Talk to our Experts
+          </button>
+          <button className="border border-[#023576] rounded-full text-[#023576] px-4 lg:px-8 py-3 max-md:text-sm font-semibold whitespace-nowrap">
+            Get Your Free Trial
+          </button>
+        </div>
       </div>
     </div>
   );

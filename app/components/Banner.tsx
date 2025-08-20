@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="px-3 py-4">
       <div className="bg-linear-to-r from-[#023576] from-30% to-[#549ba7] to-120% flex items-center justify-center pt-24 px-6 xl:px-24 rounded-3xl *:px-3">
-        <div className="lg:w-1/2 text-white">
+        <div className="lg:w-1/2 text-white py-10">
           <h1 className="font-black text-[32px] lg:text-[40px] lg:pr-24 leading-tight py-2 max-md:px-4">
             Desktop as a Service (DaaS) Hosting Solution
           </h1>
@@ -25,7 +25,7 @@ const Banner = () => {
           </div>
         </div>
         <Image
-          className="w-1/2 object-contain h-[400px] max-md:hidden"
+          className="w-1/2 object-contain h-[400px] max-lg:hidden"
           src={BannerImage}
           alt="bannerImage"
         />

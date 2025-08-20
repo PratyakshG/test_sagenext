@@ -12,7 +12,7 @@ const About = () => {
         Desktop as a Service (DaaS)
       </h1>
 
-      <div className="max-w-[1300px] py-10 flex max-lg:flex-col gap-12">
+      <div className="max-w-[1200px] py-10 flex max-lg:flex-col gap-12">
         <Image src={aboutImage} alt="aboutImage" className="aspect-square size-full" />
         <div>
           <span className="text-[17px]">
